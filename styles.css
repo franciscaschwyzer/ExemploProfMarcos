@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin:0;
+    justify-content: center;
+    flex-wrap: wrap;
+
+   
+}
+.container{
+    border: 2px solid red;
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.item{
+    border: 2px solid rgb(226, 45, 145);
+    width: 120px;
+    height: 120px;
+   
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-height: 100px;
+    width:  120px;
+    margin: 0 auto;
+    grid-gap: 20px;
+    padding: 20px;
+    border: 2px solid blue;
+
+}
+
+.container2{
+    border: 2px solid red;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
